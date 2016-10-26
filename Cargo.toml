@@ -1,0 +1,12 @@
+[package]
+authors = ["Jorge Aparicio <japaricious@gmail.com>"]
+build = "build.rs"
+name = "rust-everywhere"
+version = "0.1.42"
+
+[[bin]]
+name = "hello"
+path = "src/main.rs"
+
+[build-dependencies]
+rustc_version = "0.1.7"
